@@ -88,3 +88,13 @@ document.getElementById('prevSlideBtn').addEventListener('click', () => {
 document.getElementById('nextSlideBtn').addEventListener('click', () => {
   carouselInstance.next();
 });
+
+
+// scrolling page smooth js 
+window.addEventListener('scroll', () => {
+  document.querySelectorAll('.parallax').forEach(el => {
+    let speed = el.getAttribute('data-speed');
+    el.style.transform = `translateY(${window.scrollY * speed}px)`;
+  });
+});
+
