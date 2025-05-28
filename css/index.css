@@ -1,6 +1,6 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 .fade-in {
   opacity: 0;
@@ -15,1382 +15,1463 @@ body {
   }
 }
 
-
 .vividus-header-slider h1,
 .vividus-header-main .navbar-brand,
 h2 {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #f5f5f5;
-    font-size: 18px;
-    font-weight: 800;
+  color: #f5f5f5;
+  font-size: 18px;
+  font-weight: 800;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .vividus-header-main.scrolled .navbar-nav .nav-link {
-    color: #333;
+  color: #333;
 }
 
 .vividus-header-main.scrolled .navbar-nav .nav-link:hover {
-    color: #000;
+  color: #000;
 }
 
-
 .vividus-header-nav .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-    padding: 0px;
+  display: block;
+  margin-top: 0;
+  padding: 0px;
 }
 
 .dropdown-item {
-    font-size: 16px;
-    font-weight: 600;
-    padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 25px;
 }
 
 .dropdown-item:hover {
-    background: linear-gradient(120deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
-    color: #fff;
+  background: linear-gradient(
+    120deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  color: #fff;
 }
 
 .vividus-header-main {
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    transition: background-color 0.3s ease;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 20px 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 50px;
 }
 
 .vividus-header-main.scrolled {
-    background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .navbar-nav {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 }
 
-.navbar-brand {
-    font-size: 28px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    background: linear-gradient(to bottom, #074d8d 50%, #056402 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 100% 100%;
-    text-transform: uppercase;
-}
-
-
+/* .navbar-brand {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  background: linear-gradient(to bottom, #074d8d 50%, #056402 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100% 100%;
+  text-transform: uppercase;
+} */
 
 .vividus-header-slider .slide-bg {
-    height: 650px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    z-index: 1;
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  z-index: 1;
 }
 
 .vividus-header-slider .carousel-caption {
-    padding: 0px;
-    max-width: 500px;
-    text-align: start;
+  padding: 0px;
+  max-width: 500px;
+  text-align: start;
 }
 
 .vividus-header-slider .carousel-caption h1 {
-    font-size: 48px;
-    color: #fff;
+  font-size: 48px;
+  color: #fff;
 }
 
 .vividus-header-slider .carousel-caption p {
-    font-size: 18px;
-    color: #fff;
+  font-size: 18px;
+  color: #fff;
 }
 
 .vividus-header-slider .btn {
-    margin-top: 15px;
-    background: linear-gradient(#0B2B59, #28548E);
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    border: none;
-    padding: 10px 15px;
+  margin-top: 15px;
+  background: linear-gradient(#0b2b59, #28548e);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  padding: 10px 15px;
 }
 
 .vividus-header-slider .btn:hover {
-    background: linear-gradient(#28548E, #0B2B59);
+  background: linear-gradient(#28548e, #0b2b59);
 }
 
 .carousel-caption {
-    position: absolute;
-    right: 0%;
-    bottom: 25%;
-    left: 4%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
+  position: absolute;
+  right: 0%;
+  bottom: 25%;
+  left: 4%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
 }
 
 /* Mobile and tablet responsive adjustments */
 @media (max-width: 991px) {
-    .vividus-header-main {
-        background-color: #fff !important;
-        padding: 10px 20px;
-    }
+  .vividus-header-main {
+    background-color: #fff !important;
+    padding: 10px 20px;
+  }
 
-    .navbar-light .navbar-nav .nav-link {
-        color: #000;
-        border: none;
-    }
+  .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    border: none;
+  }
 
-    .navbar-light .navbar-toggler {
-        border-color: rgba(0, 0, 0, .1);
-    }
+  .navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
 
-    .navbar-light .navbar-nav .nav-link:hover {
-        color: #000000;
-    }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #000000;
+  }
 
-    .navbar-light .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
 
-    .navbar-nav {
-        background-color: #fff;
-        width: 100%;
-        text-align: center;
-        padding: 20px 10px;
-        gap: 10px;
-    }
+  .navbar-nav {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px 10px;
+    gap: 10px;
+  }
 
-    .navbar-nav .nav-link {
-        color: #000;
-        padding: 10px 15px;
-        border-bottom: 1px solid #ddd;
-    }
+  .navbar-nav .nav-link {
+    color: #000;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+  }
 
-    .navbar-nav .nav-link:hover {
-        background-color: #f8f9fa;
-        color: #000;
-    }
+  .navbar-nav .nav-link:hover {
+    background-color: #f8f9fa;
+    color: #000;
+  }
 
-    .vividus-header-slider .slide-bg {
-        height: 400px;
-        justify-content: center;
-        text-align: center;
-    }
+  .vividus-header-slider .slide-bg {
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+  }
 
-    .vividus-header-slider .carousel-caption {
-        bottom: 15%;
-        left: 10%;
-        right: 10%;
-        padding: 10px;
-    }
+  .vividus-header-slider .carousel-caption {
+    bottom: 15%;
+    left: 10%;
+    right: 10%;
+    padding: 10px;
+  }
 
-    .vividus-header-slider .carousel-caption h1 {
-        font-size: 28px;
-    }
+  .vividus-header-slider .carousel-caption h1 {
+    font-size: 28px;
+  }
 
-    .vividus-header-slider .carousel-caption p {
-        font-size: 16px;
-    }
+  .vividus-header-slider .carousel-caption p {
+    font-size: 16px;
+  }
 
-    .vividus-header-slider .btn {
-        font-size: 14px;
-        padding: 8px 12px;
-    }
+  .vividus-header-slider .btn {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
 }
-
 
 /* footer section code css  */
 .vividus-footer-main {
-    background-color: #e6ece6;
-    color: #333;
-    font-size: 14px;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 14px;
 }
 
-
 .vividus-footer-main h5 {
-    font-weight: 600;
-    margin: 0;
+  font-weight: 600;
+  margin: 0;
 }
 
 .vividus-footer-main h6 {
-    font-weight: 600;
-    margin-bottom: 10px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .vividus-footer-input {
-    width: 60%;
-    max-width: 250px;
+  width: 60%;
+  max-width: 250px;
 }
 
 .vividus-footer-button {
-    background-color: #116b5f;
-    border-color: #116b5f;
-    color: #fff;
+  background-color: #116b5f;
+  border-color: #116b5f;
+  color: #fff;
 }
 
 .vividus-footer-links li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .vividus-footer-links a {
-    color: #333;
-    text-decoration: none;
+  color: #333;
+  text-decoration: none;
 }
 
 .vividus-footer-links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .vividus-footer-main i {
-    font-size: 18px;
-    color: #116b5f;
+  font-size: 18px;
+  color: #116b5f;
 }
 
 .vividus-footer-main i:hover {
-    color: #0a4c3f;
+  color: #0a4c3f;
 }
 
 .vividus-footer-section {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .vividus-footer-social {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .vividus-footer-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-color: #f5f5f5;
-    color: #333;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-    font-size: 18px;
-    text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #e6ece6;
+  color: #333;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .vividus-footer-icon i {
-    color: inherit;
-    /* icon takes color from parent a tag */
-    transition: color 0.3s ease;
+  color: inherit;
+  /* icon takes color from parent a tag */
+  transition: color 0.3s ease;
 }
 
 .vividus-footer-icon:hover {
-    background-color: #116b5f;
-    color: #fff;
-    text-decoration: none;
+  background-color: #116b5f;
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (max-width: 767.98px) {
-    .vividus-footer-main {
-        text-align: center;
-    }
+  .vividus-footer-main {
+    text-align: center;
+  }
 
-    .vividus-footer-main .row>div {
-        margin-bottom: 20px;
-    }
+  .vividus-footer-main .row > div {
+    margin-bottom: 20px;
+  }
 
-    .vividus-footer-input {
-        width: 100%;
-        max-width: 100%;
-        margin-bottom: 10px;
-    }
+  .vividus-footer-input {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
 
-    .vividus-footer-button {
-        width: 100%;
-    }
+  .vividus-footer-button {
+    width: 100%;
+  }
 
-    .vividus-footer-social {
-        justify-content: center;
-    }
+  .vividus-footer-social {
+    justify-content: center;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .vividus-footer-input {
-        width: 70%;
-    }
+  .vividus-footer-input {
+    width: 70%;
+  }
 
-    .vividus-footer-social {
-        justify-content: flex-start;
-    }
+  .vividus-footer-social {
+    justify-content: flex-start;
+  }
 }
 
 @media (min-width: 992px) {
-    .vividus-footer-main .row {
-        align-items: center;
-    }
+  .vividus-footer-main .row {
+    align-items: center;
+  }
 }
 
-/* our service section css  */
+/* ============================
+   🔹 Our Services Section
+=============================== */
 .vividus-services-card {
-    position: relative;
-    background-color: #fff;
-    padding: 30px 20px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: all 0.3s ease;
+  position: relative;
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
 .vividus-services-card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 0;
-    background: linear-gradient(rgba(17, 107, 95, 0.8), rgba(17, 107, 95, 0.8)), url('../img/grid-card.webp') center/cover no-repeat;
-    transition: height 0.3s ease;
-    z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(17, 107, 95, 0.8), rgba(17, 107, 95, 0.8)),
+    url("../img/grid-card.webp") center/cover no-repeat;
+  transition: height 0.3s ease;
+  z-index: 1;
 }
 
 .vividus-services-icon {
-    font-size: 40px;
-    color: #116b5f;
-    margin-bottom: 15px;
-    position: relative;
-    z-index: 2;
+  font-size: 40px;
+  color: #116b5f;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+}
+
+.vividus-product-icons {
+  max-width: 60px;
+  height: auto;
+  transition: filter 0.3s ease;
+  filter: brightness(0); /* icon appears black */
+  position: relative;
+  z-index: 2;
 }
 
 .vividus-services-card h5,
 .vividus-services-card p {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 .vividus-services-btn {
-    position: relative;
-    z-index: 2;
-    display: inline-block;
-    margin-top: 15px;
-    padding: 6px 15px;
-    background-color: #fff;
-    color: #116b5f;
-    font-weight: 500;
-    border-radius: 20px;
-    text-decoration: none;
-    opacity: 0;
-    transform: translateY(10px);
-    transition: all 0.3s ease;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 6px 15px;
+  background-color: #fff;
+  color: #116b5f;
+  font-weight: 500;
+  border-radius: 20px;
+  text-decoration: none;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
 }
 
+/* 🔥 HOVER EFFECTS 🔥 */
 .vividus-services-card:hover::before {
-    height: 100%;
+  height: 100%;
 }
 
 .vividus-services-card:hover .vividus-services-btn {
-    opacity: 1;
-    transform: translateY(0);
-    text-decoration: none;
+  opacity: 1;
+  transform: translateY(0);
+  text-decoration: none;
 }
 
 .vividus-services-card:hover .vividus-services-icon,
 .vividus-services-card:hover h5,
 .vividus-services-card:hover p {
-    color: #fff;
+  color: #fff;
 }
 
+.vividus-services-card:hover .vividus-product-icons {
+  filter: brightness(1000%) invert(1); /* icon turns white */
+}
+
+/* 🔤 Title Gradient Text */
 .vividus-services-titles1 {
-    font-size: 38px;
-    font-weight: 800;
-    background: linear-gradient( rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 38px;
+  font-weight: 800;
+  background: linear-gradient(
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-/* 🔥 Responsive styles 🔥 */
+/* ============================
+   🔻 Responsive Breakpoints
+=============================== */
+
+/* Tablet */
 @media (max-width: 991px) {
-    .vividus-services-card {
-        padding: 25px 15px;
-    }
+  .vividus-services-card {
+    padding: 25px 15px;
+  }
 
-    .vividus-services-icon {
-        font-size: 35px;
-    }
+  .vividus-services-icon {
+    font-size: 35px;
+  }
 
-    .vividus-services-card h5 {
-        font-size: 16px;
-    }
+  .vividus-product-icons {
+    max-width: 50px;
+  }
 
-    .vividus-services-card p {
-        font-size: 12px;
-    }
+  .vividus-services-card h5 {
+    font-size: 16px;
+  }
 
-    .vividus-services-btn {
-        padding: 5px 12px;
-        font-size: 14px;
-    }
+  .vividus-services-card p {
+    font-size: 12px;
+  }
 
-    .vividus-services-card:hover .vividus-services-btn {
-        font-size: 12px;
-    }
+  .vividus-services-btn {
+    padding: 5px 12px;
+    font-size: 14px;
+  }
+
+  .vividus-services-card:hover .vividus-services-btn {
+    font-size: 12px;
+  }
 }
 
-/* Mobile (up to 767px) */
+/* Mobile */
 @media (max-width: 767px) {
-    .vividus-services-card {
-        padding: 20px 10px;
-    }
+  .vividus-services-card {
+    padding: 20px 10px;
+  }
 
-    .vividus-services-card:hover .vividus-services-btn {
-        font-size: 12px;
-    }
+  .vividus-services-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
 
-    .vividus-services-icon {
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
+  .vividus-product-icons {
+    max-width: 40px;
+  }
 
-    .vividus-services-card h5 {
-        font-size: 18px;
-    }
+  .vividus-services-card h5 {
+    font-size: 18px;
+  }
 
-    .vividus-services-card p {
-        font-size: 13px;
-    }
+  .vividus-services-card p {
+    font-size: 13px;
+  }
 
-    .vividus-services-btn {
-        padding: 4px 10px;
-        font-size: 13px;
-    }
+  .vividus-services-btn {
+    padding: 4px 10px;
+    font-size: 13px;
+  }
+
+  .vividus-services-card:hover .vividus-services-btn {
+    font-size: 12px;
+  }
 }
+
 
 /* contatct home section css  */
 .vividus-contecthome-section {
-    background:
-        linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 69, 81, 0.8) 100%),
-        url('../img/img19.jpg') center center / cover no-repeat fixed;
-    padding: 60px 0;
-    position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 69, 81, 0.8) 100%
+    ),
+    url("../img/img19.jpg") center center / cover no-repeat fixed;
+  padding: 60px 0;
+  position: relative;
 }
 
 .vividus-contecthome-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .vividus-contecthome-text {
-    font-size: 1rem;
-    max-width: 500px;
+  font-size: 1rem;
+  max-width: 500px;
 }
 
 .vividus-contecthome-btn {
-    background-color: orange;
-    color: #fff;
-    padding: 10px 25px;
-    border-radius: 30px;
-    font-weight: 600;
-    text-decoration: none;
+  background-color: orange;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .vividus-contecthome-btn:hover {
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
-    .vividus-contecthome-title {
-        font-size: 2rem;
-    }
+  .vividus-contecthome-title {
+    font-size: 2rem;
+  }
 
-    .vividus-contecthome-btn {
-        margin-top: 20px;
-    }
+  .vividus-contecthome-btn {
+    margin-top: 20px;
+  }
 }
 
 /* <!-- About us section code css --> */
 .vividus-aboutus-section {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .vividus-aboutus-maintitle {
-    font-size: 38px;
-    font-weight: 800;
-    background: linear-gradient( rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 38px;
+  font-weight: 800;
+  background: linear-gradient(
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .vividus-aboutus-subtitle {
-    font-size: 14px;
-    letter-spacing: 1px;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .vividus-aboutus-title {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .vividus-aboutus-text {
-    font-size: 16px;
-    color: #555;
+  font-size: 16px;
+  color: #555;
 }
 
 .vividus-aboutus-section img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .vividus-aboutus-icon {
-    background-color: #0c6b11;
-    width: 80px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin: 0 auto 10px auto;
+  background-color: #0c6b11;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
 }
 
 .vividus-aboutus-button {
-    display: flex;
-    padding: 10px 20px;
-    border-radius: 25px;
-    border: 2px solid transparent;
-    background: #0c6b11;
-    color: #fff;
-    box-sizing: border-box;
-    transition: all 0.3s ease;
-    text-decoration: none;
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 2px solid transparent;
+  background: #0c6b11;
+  color: #fff;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .vividus-aboutus-button:hover {
-    border: 2px solid #000;
-    color: #000;
-    background: transparent;
-    text-decoration: none !important;
+  border: 2px solid #000;
+  color: #000;
+  background: transparent;
+  text-decoration: none !important;
 }
 
 @media (min-width: 768px) {
-    .vividus-aboutus-subtitle {
-        text-align: left;
-    }
+  .vividus-aboutus-subtitle {
+    text-align: left;
+  }
 
-    .vividus-aboutus-title {
-        text-align: left;
-        font-size: 24px;
-    }
+  .vividus-aboutus-title {
+    text-align: left;
+    font-size: 24px;
+  }
 
-    .vividus-aboutus-text {
-        text-align: left;
-    }
+  .vividus-aboutus-text {
+    text-align: left;
+  }
 }
 
 /* number count section css */
 .vividus-homecount-section {
-    background: linear-gradient(to right, rgba(40, 167, 69, 0.5), rgba(40, 167, 69, 0.5)),
-        url('../img/home_about-1.jpg') right 30% no-repeat;
-    background-size: cover;
-    height: auto;
-    display: flex;
-    align-items: center;
+  background: linear-gradient(
+      to right,
+      rgba(40, 167, 69, 0.5),
+      rgba(40, 167, 69, 0.5)
+    ),
+    url("../img/home_about-1.jpg") right 30% no-repeat;
+  background-size: cover;
+  height: auto;
+  display: flex;
+  align-items: center;
 }
 
 .vividus-homecount-subtitle {
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
 }
 
 .vividus-homecount-number {
-    font-size: 36px;
-    font-weight: 700;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .vividus-homecount-title {
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #ffffff;
 }
 
 .vividus-homecount-text {
-    color: #fff;
-    font-size: 14px;
+  color: #fff;
+  font-size: 14px;
 }
 
 /* Tablet (≤ 991px) */
 @media (max-width: 991px) {
-    .vividus-homecount-section {
-        padding: 50px 0;
-        background-position: center 25%;
-    }
+  .vividus-homecount-section {
+    padding: 50px 0;
+    background-position: center 25%;
+  }
 
-    .vividus-homecount-number {
-        font-size: 32px;
-    }
+  .vividus-homecount-number {
+    font-size: 32px;
+  }
 
-    .vividus-homecount-title {
-        font-size: 16px;
-    }
+  .vividus-homecount-title {
+    font-size: 16px;
+  }
 
-    .vividus-homecount-text {
-        font-size: 13px;
-    }
+  .vividus-homecount-text {
+    font-size: 13px;
+  }
 
-    .vividus-homecount-subtitle {
-        font-size: 16px;
-    }
+  .vividus-homecount-subtitle {
+    font-size: 16px;
+  }
 }
 
 /* Mobile (≤ 767px) */
 @media (max-width: 767px) {
-    .vividus-homecount-section {
-        padding: 40px 15px;
-        background-position: center 20%;
-    }
+  .vividus-homecount-section {
+    padding: 40px 15px;
+    background-position: center 20%;
+  }
 
-    .vividus-homecount-number {
-        font-size: 28px;
-    }
+  .vividus-homecount-number {
+    font-size: 28px;
+  }
 
-    .vividus-homecount-title {
-        font-size: 15px;
-    }
+  .vividus-homecount-title {
+    font-size: 15px;
+  }
 
-    .vividus-homecount-text {
-        font-size: 12px;
-    }
+  .vividus-homecount-text {
+    font-size: 12px;
+  }
 
-    .vividus-homecount-subtitle {
-        font-size: 15px;
-    }
+  .vividus-homecount-subtitle {
+    font-size: 15px;
+  }
 }
 
 /* contact us css  */
 .contactus-page-section {
-    /* background: #f7f9fb; */
-    padding: 50px 0;
+  /* background: #f7f9fb; */
+  padding: 50px 0;
 }
 
 .contactus-page-card {
-    /* background: #fff; */
-    padding: 30px;
-    border-radius: 15px;
-    /* box-shadow: 0 4px 15px rgba(0,0,0,0.1); */
+  /* background: #fff; */
+  padding: 30px;
+  border-radius: 15px;
+  /* box-shadow: 0 4px 15px rgba(0,0,0,0.1); */
 }
 
 .contactus-page-title {
-    font-size: 38px;
-    font-weight: 800;
-    background: linear-gradient(rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 38px;
+  font-weight: 800;
+  background: linear-gradient(
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .contactus-page-subtitle {
-    font-size: 16px;
-    color: #6c757d;
-    margin-bottom: 20px;
+  font-size: 16px;
+  color: #6c757d;
+  margin-bottom: 20px;
 }
 
 .contactus-page-btn {
-    background-color: #ff9900;
-    color: #fff;
-    border: none;
-    padding: 10px 25px;
-    border-radius: 50px;
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 50px;
 }
 
 .contactus-page-btn:hover {
-    background-color: #e07b00;
+  background-color: #e07b00;
 }
 
 .contactus-page-img {
-    width: 100%;
-    border-radius: 15px;
+  width: 100%;
+  border-radius: 15px;
 }
 
 .contactus-page-info p,
 .contactus-page-info a {
-    font-size: 14px;
-    margin: 5px 0;
-    color: #023047;
-    text-align: start;
+  font-size: 14px;
+  margin: 5px 0;
+  color: #023047;
+  text-align: start;
 }
 
 .contactus-page-social {
-    display: flex;
-    justify-content: flex-start;
-    gap: 15px;
-    padding: 20px 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  padding: 20px 0;
 }
 
 .contactus-page-social a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #f0f0f0;
-    color: #333;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 18px;
 }
 
 .contactus-page-social a:hover {
-    background-color: #007bff;
-    color: #fff;
-    transform: scale(1.1);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #007bff;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-
 
 /* banner section css  */
 .subpage-bannersection-main {
-    background-image: url('../img/contact-banner.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    border-radius: 10px;
+  background-image: url("../img/contact-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 10px;
 }
 
 .subpage-bannersection-main::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .subpage-bannersection-title {
-    font-size: 48px;
-    font-weight: bold;
-    color: #fff;
-    position: relative;
-    z-index: 1;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 /* faqs section css  */
 .vividus-faqs-section {
-    background-color: #fdfdfd;
+  background-color: #fdfdfd;
 }
 
 .vividus-faqs-subtitle {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 14px;
-    color: #555;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  color: #555;
 }
 
 .vividus-faqs-title {
-    font-size: 38px;
-    font-weight: 800;
-    background: linear-gradient( rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 38px;
+  font-weight: 800;
+  background: linear-gradient(
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .vividus-faqs-accordion .card {
-    border: none;
-    border-radius: 0;
-    margin-bottom: 10px;
-    transition: background-color 0.3s;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
 }
 
 .vividus-faqs-header {
-    padding: 1rem 1.5rem;
-    cursor: pointer;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    transition: background-color 0.3s ease;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
 }
 
 .vividus-faqs-header:hover {
-    background-color: #e8f0fe;
+  background-color: #e8f0fe;
 }
 
 .vividus-faqs-header.active {
-    background-color: #f0f8ff;
-    border-bottom: none;
+  background-color: #f0f8ff;
+  border-bottom: none;
 }
 
 .vividus-faqs-body {
-    background-color: #f0f8ff;
-    padding: 1rem 1.5rem;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+  background-color: #f0f8ff;
+  padding: 1rem 1.5rem;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .faq-icon i {
-    font-size: 14px;
-    transition: transform 0.3s ease;
-    color: #000;
+  font-size: 14px;
+  transition: transform 0.3s ease;
+  color: #000;
 }
 
 .faq-icon.rotate i {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 /* orthopedic section css  */
 .vividu-orthopedic-title {
-    font-weight: bolder;
-    font-size: 32px;
-    margin-bottom: 10px;
-    color: #333;
-    text-align: center;
+  font-weight: bolder;
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
 }
 
 .vividu-orthopedic-text {
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: 15px;
-    text-align: center;
-    font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 600;
 }
 
 .vividu-orthopedic-header h2 {
-    font-size: 38px;
-    font-weight: bolder;
-    background: linear-gradient(rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 38px;
+  font-weight: bolder;
+  background: linear-gradient(
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .vividu-orthopedic-card {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    height: 100%;
-    position: relative;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
-    /* stronger shadow */
-    border: 2px solid #9e9b9b;
-    transition: transform 0.3s;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  height: 100%;
+  position: relative;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+  /* stronger shadow */
+  border: 2px solid #9e9b9b;
+  transition: transform 0.3s;
 }
 
 .vividu-orthopedic-card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .vividu-orthopedic-red,
 .vividu-orthopedic-orange,
 .vividu-orthopedic-green,
 .vividu-orthopedic-blue {
-    border-bottom-width: 20px;
-    border-radius: 25px;
-    background: #fffdfd;
-    display: grid;
+  border-bottom-width: 20px;
+  border-radius: 25px;
+  background: #fffdfd;
+  display: grid;
 }
 
 .vividu-orthopedic-red {
-    border-bottom-color: #c82817;
+  border-bottom-color: #c82817;
 }
 
 .vividu-orthopedic-orange {
-    border-bottom-color: #3a1d03;
+  border-bottom-color: #3a1d03;
 }
 
 .vividu-orthopedic-green {
-    border-bottom-color: #0f7614;
+  border-bottom-color: #0f7614;
 }
 
 .vividu-orthopedic-blue {
-    border-bottom-color: #08258d;
+  border-bottom-color: #08258d;
 }
 
 .vividu-orthopedic-both {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
 
 /* ✅ Responsive styles */
 @media (max-width: 991px) {
-    .vividu-orthopedic-title {
-        font-size: 28px;
-    }
+  .vividu-orthopedic-title {
+    font-size: 28px;
+  }
 
-    .vividu-orthopedic-text {
-        font-size: 13px;
-    }
+  .vividu-orthopedic-text {
+    font-size: 13px;
+  }
 
-    .vividu-orthopedic-card {
-        padding: 18px;
-    }
+  .vividu-orthopedic-card {
+    padding: 18px;
+  }
 }
 
 @media (max-width: 767px) {
-    .vividu-orthopedic-title {
-        font-size: 24px;
-    }
+  .vividu-orthopedic-title {
+    font-size: 24px;
+  }
 
-    .vividu-orthopedic-text {
-        font-size: 12.5px;
-    }
+  .vividu-orthopedic-text {
+    font-size: 12.5px;
+  }
 
-    .vividu-orthopedic-card {
-        padding: 16px;
-    }
+  .vividu-orthopedic-card {
+    padding: 16px;
+  }
 }
 
 @media (max-width: 576px) {
-    .vividu-orthopedic-title {
-        font-size: 22px;
-    }
+  .vividu-orthopedic-title {
+    font-size: 22px;
+  }
 
-    .vividu-orthopedic-text {
-        font-size: 12px;
-    }
+  .vividu-orthopedic-text {
+    font-size: 12px;
+  }
 
-    .vividu-orthopedic-card {
-        padding: 14px;
-    }
+  .vividu-orthopedic-card {
+    padding: 14px;
+  }
 }
 
 @media (max-width: 420px) {
-    .vividu-orthopedic-title {
-        font-size: 20px;
-    }
+  .vividu-orthopedic-title {
+    font-size: 20px;
+  }
 
-    .vividu-orthopedic-text {
-        font-size: 11.5px;
-    }
+  .vividu-orthopedic-text {
+    font-size: 11.5px;
+  }
 
-    .vividu-orthopedic-card {
-        padding: 12px;
-    }
+  .vividu-orthopedic-card {
+    padding: 12px;
+  }
 }
-
 
 /* cardic section css  */
 .cardiac-vividus-container {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 12px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
 }
 
 .cardiac-vividus-heading {
-    font-size: 28px;
-    font-weight: 700;
-    color: #08258d;
-    text-align: center;
-    margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #08258d;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .cardiac-vividus-diabetic {
-    color: #333;
-    background-color: #d9edf7;
-    padding: 2px 8px;
-    border-radius: 6px;
-    margin-left: 10px;
+  color: #333;
+  background-color: #d9edf7;
+  padding: 2px 8px;
+  border-radius: 6px;
+  margin-left: 10px;
 }
 
 .cardiac-vividus-card {
-    border: 1px solid #056402;
-    border-radius: 15px;
-    background-color: #fff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    height: 100%;
-    display: grid;
-    border-bottom: 7px solid #056402;
-    border-left: 4px solid #056402;
-    transition: transform 0.3s ease;
-    padding: 20px;
+  border: 1px solid #056402;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: grid;
+  border-bottom: 7px solid #056402;
+  border-left: 4px solid #056402;
+  transition: transform 0.3s ease;
+  padding: 20px;
 }
 
 .cardiac-vividus-card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .cardiac-vividus-title {
-    font-size: 24px;
-    font-weight: 700;
-    color: #c82817;
-    margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #c82817;
+  margin-bottom: 10px;
 }
 
 .cardiac-vividus-card ul li {
-    font-size: 14px;
-    margin-bottom: 5px;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 
 .cardiac-vividus-footer {
-    font-size: 18px;
-    color: #28a745;
+  font-size: 18px;
+  color: #28a745;
 }
 
 /* Grid layout */
 .cardiac-vividus-row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
 
 /* Responsive adjustments */
 @media (max-width: 992px) {
-    .cardiac-vividus-title {
-        font-size: 22px;
-    }
+  .cardiac-vividus-title {
+    font-size: 22px;
+  }
 
-    .cardiac-vividus-heading {
-        font-size: 24px;
-    }
+  .cardiac-vividus-heading {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 768px) {
-    .cardiac-vividus-container {
-        padding: 15px;
-    }
+  .cardiac-vividus-container {
+    padding: 15px;
+  }
 
-    .cardiac-vividus-title {
-        font-size: 20px;
-    }
+  .cardiac-vividus-title {
+    font-size: 20px;
+  }
 
-    .cardiac-vividus-heading {
-        font-size: 22px;
-    }
+  .cardiac-vividus-heading {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 576px) {
-    .cardiac-vividus-container {
-        padding: 10px;
-    }
+  .cardiac-vividus-container {
+    padding: 10px;
+  }
 
-    .cardiac-vividus-title {
-        font-size: 18px;
-    }
+  .cardiac-vividus-title {
+    font-size: 18px;
+  }
 
-    .cardiac-vividus-heading {
-        font-size: 20px;
-    }
+  .cardiac-vividus-heading {
+    font-size: 20px;
+  }
 }
-
 
 /* ent section css  */
 .vividu-ent-header h2 {
-    font-size: 38px;
-    font-weight: 800;
-    background: linear-gradient(rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 38px;
+  font-weight: 800;
+  background: linear-gradient(
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .ent-vividus-card {
-    border: 1px solid #4876a8;
-    border-radius: 15px;
-    background-color: #fff;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    height: 100%;
-    border-bottom: 5px solid #4876a8;
-    display: grid;
+  border: 1px solid #4876a8;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  border-bottom: 5px solid #4876a8;
+  display: grid;
 }
 
 .ent-vividus-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 .ent-vividus-title {
-    font-size: 28px;
-    font-weight: 700;
-    color: #c82817;
-    margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #c82817;
+  margin-bottom: 10px;
 }
 
 .ent-vividus-card p {
-    font-size: 14px;
-    color: #333;
-    line-height: 1.5;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
 }
 
 @media (max-width: 992px) {
-    .ent-vividus-title {
-        font-size: 18px;
-    }
+  .ent-vividus-title {
+    font-size: 18px;
+  }
 
-    .ent-vividus-card p {
-        font-size: 13px;
-    }
+  .ent-vividus-card p {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 768px) {
-    .ent-vividus-title {
-        font-size: 16px;
-    }
+  .ent-vividus-title {
+    font-size: 16px;
+  }
 
-    .ent-vividus-card p {
-        font-size: 12px;
-    }
+  .ent-vividus-card p {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 576px) {
-    .vividu-ent-header h2 {
-        font-size: 24px;
-    }
+  .vividu-ent-header h2 {
+    font-size: 24px;
+  }
 
-    .ent-vividus-title {
-        font-size: 16px;
-    }
+  .ent-vividus-title {
+    font-size: 16px;
+  }
 
-    .ent-vividus-card p {
-        font-size: 12px;
-    }
+  .ent-vividus-card p {
+    font-size: 12px;
+  }
 
-    .ent-vividus-card {
-        margin-bottom: 20px;
-    }
+  .ent-vividus-card {
+    margin-bottom: 20px;
+  }
 }
 
 /* about page section css  */
 .about-whatwe-section {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 .about-whatwe-image {
-    border-radius: 12px;
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+  border-radius: 12px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .about-whatwe-card {
-    position: relative;
-    color: white;
-    border-radius: 12px;
-    padding: 25px;
-    background: linear-gradient(to bottom right, rgba(0, 112, 114, 0.5), rgba(0, 95, 102, 0.5)),
-        url('../img/aboutus-bg.jpg') no-repeat center center/cover;
-    overflow: hidden;
+  position: relative;
+  color: white;
+  border-radius: 12px;
+  padding: 25px;
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 112, 114, 0.5),
+      rgba(0, 95, 102, 0.5)
+    ),
+    url("../img/aboutus-bg.jpg") no-repeat center center/cover;
+  overflow: hidden;
 }
-.about-whatwe-sectiontitle{
-        font-size: 38px;
-    font-weight: 800;
-    background: linear-gradient(rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.about-whatwe-sectiontitle {
+  font-size: 38px;
+  font-weight: 800;
+  background: linear-gradient(
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .about-whatwe-card h5 {
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .about-whatwe-icon {
-    font-size: 24px;
-    margin-right: 10px;
-    color: orange;
+  font-size: 24px;
+  margin-right: 10px;
+  color: orange;
 }
 
 .about-whatwe-address {
-    font-size: 14px;
-    margin-top: 15px;
+  font-size: 14px;
+  margin-top: 15px;
 }
 
 .about-whatwe-contentset {
-    padding: 20px;
-    margin-top: 15px;
+  padding: 20px;
+  margin-top: 15px;
 }
 
 /* 🔁 Responsive Tweaks */
 @media (max-width: 991.98px) {
-    .about-whatwe-section {
-        padding: 40px 15px;
-    }
+  .about-whatwe-section {
+    padding: 40px 15px;
+  }
 
-    .about-whatwe-card {
-        margin-top: 30px;
-    }
+  .about-whatwe-card {
+    margin-top: 30px;
+  }
 
-    .about-whatwe-image {
-        height: 250px;
-    }
+  .about-whatwe-image {
+    height: 250px;
+  }
 }
 
 @media (max-width: 767.98px) {
-    .about-whatwe-card {
-        padding: 20px;
-    }
+  .about-whatwe-card {
+    padding: 20px;
+  }
 
-    .about-whatwe-icon {
-        font-size: 20px;
-    }
+  .about-whatwe-icon {
+    font-size: 20px;
+  }
 
-    .about-whatwe-image {
-        height: 220px;
-    }
+  .about-whatwe-image {
+    height: 220px;
+  }
 
-    .about-whatwe-address {
-        font-size: 13px;
-    }
+  .about-whatwe-address {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 575.98px) {
-    .about-whatwe-section {
-        padding: 30px 10px;
-    }
+  .about-whatwe-section {
+    padding: 30px 10px;
+  }
 
-    .about-whatwe-image {
-        height: 200px;
-    }
+  .about-whatwe-image {
+    height: 200px;
+  }
 
-    .about-whatwe-contentset {
-        padding: 15px;
-    }
+  .about-whatwe-contentset {
+    padding: 15px;
+  }
 }
-
 
 /* about why choose us css  */
 /* Main Section */
 .about-whychooseus-main {
-    padding: 60px 0;
-    background-color: #f7f7f7;
+  padding: 60px 0;
+  background-color: #f7f7f7;
 }
 
 .image-container-aboutwhychooseus {
-    text-align: center;
+  text-align: center;
 }
 
 .image-container-aboutwhychooseus img {
-    width: 100%;
-    height: 550px;
-    object-fit: cover;
-    object-position: center center;
-    border-radius: 8px;
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 8px;
 }
 
 .text-section-aboutwhychooseus h2 {
-    font-size: 36px;
-    font-weight: bold;
-    background: linear-gradient( rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .text-section-aboutwhychooseus p {
-    font-size: 18px;
-    color: #7f8c8d;
-    margin-bottom: 30px;
+  font-size: 18px;
+  color: #7f8c8d;
+  margin-bottom: 30px;
 }
 
 .contact-section-aboutwhychooseus {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .wellness-journey-aboutwhychooseus {
-    background: linear-gradient(113deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
-    border-radius: 10px;
-    color: #fff;
-    padding: 15px;
+  background: linear-gradient(
+    113deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  border-radius: 10px;
+  color: #fff;
+  padding: 15px;
 }
 
 .wellness-journey-aboutwhychooseus p {
-    color: #fff;
-    font-size: 16px;
+  color: #fff;
+  font-size: 16px;
 }
 
 .need-care-aboutwhychooseus p {
-    color: #fff;
-    font-size: 16px;
+  color: #fff;
+  font-size: 16px;
 }
 
 .need-care-aboutwhychooseus {
-    background: linear-gradient(113deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
-    border-radius: 10px;
-    color: #fff;
-    padding: 15px;
+  background: linear-gradient(
+    113deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  border-radius: 10px;
+  color: #fff;
+  padding: 15px;
 }
 
 .bnt-booking {
-    color: #fff;
-    font-weight: 600;
+  color: #fff;
+  font-weight: 600;
 }
 
 .bnt-booking:hover {
-    color: #ff9900;
-    text-decoration: none;
+  color: #ff9900;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
-    .image-container-aboutwhychooseus img {
-        height: 300px;
-    }
+  .image-container-aboutwhychooseus img {
+    height: 300px;
+  }
 
-    .text-section-aboutwhychooseus h2 {
-        font-size: 24px;
-    }
+  .text-section-aboutwhychooseus h2 {
+    font-size: 24px;
+  }
 
-    .text-section-aboutwhychooseus p {
-        font-size: 15px;
-    }
-
+  .text-section-aboutwhychooseus p {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 576px) {
-    .about-whychooseus-main {
-        padding: 40px 15px;
-    }
+  .about-whychooseus-main {
+    padding: 40px 15px;
+  }
 
-    .image-container-aboutwhychooseus img {
-        height: 250px;
-    }
+  .image-container-aboutwhychooseus img {
+    height: 250px;
+  }
 
-    .contact-section-aboutwhychooseus {
-        gap: 15px;
-    }
+  .contact-section-aboutwhychooseus {
+    gap: 15px;
+  }
 
-    .wellness-journey-aboutwhychooseus,
-    .need-care-aboutwhychooseus {
-        padding: 10px;
-    }
+  .wellness-journey-aboutwhychooseus,
+  .need-care-aboutwhychooseus {
+    padding: 10px;
+  }
 
-    .text-section-aboutwhychooseus h2 {
-        font-size: 20px;
-    }
+  .text-section-aboutwhychooseus h2 {
+    font-size: 20px;
+  }
 
-    .text-section-aboutwhychooseus p {
-        font-size: 14px;
-    }
+  .text-section-aboutwhychooseus p {
+    font-size: 14px;
+  }
 }
 
 /* our achievements section css  */
 .about-achievements-title {
-    font-size: 38px;
-    font-weight: 800;
-    background: linear-gradient(rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: start;
-    margin-bottom: 20px;
-
+  font-size: 38px;
+  font-weight: 800;
+  background: linear-gradient(
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: start;
+  margin-bottom: 20px;
 }
 
 .about-achievements-text {
@@ -1409,4 +1490,54 @@ h2 {
 .about-achievements-arrows button:hover {
   background-color: #f0f0f0;
   transform: scale(1.05);
+}
+
+/* logo styles  */
+.VIVIDUS-Logo-img {
+  width: 200px; /* Keeps the aspect ratio */
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .VIVIDUS-Logo-img {
+    max-height: 50px; /* Smaller height on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .VIVIDUS-Logo-img {
+    max-height: 50px; /* Even smaller on mobile */
+  }
+}
+
+.a-line{
+    text-decoration: none;
+}
+.a-line:hover{
+    text-decoration: none;
+}
+
+/* home product icons css  */
+.vividus-product-icons {
+  max-width: 60px;     
+  height: auto;
+  transition: filter 0.3s ease; 
+  filter: brightness(0);
+}
+
+.vividus-product-icons:hover {
+  filter: brightness(1000%) invert(1);
+}
+
+@media (max-width: 768px) {
+  .vividus-product-icons {
+    max-width: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .vividus-product-icons {
+    max-width: 45px;
+  }
 }
