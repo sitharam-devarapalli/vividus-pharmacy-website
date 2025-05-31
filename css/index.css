@@ -77,7 +77,7 @@ h2 {
 
 .navbar-nav {
   display: flex;
-  gap: 25px;
+  gap: 11px;
 }
 
 /* .navbar-brand {
@@ -352,6 +352,7 @@ h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: all 0.3s ease;
+  height: 100%;
 }
 
 .vividus-services-card::before {
@@ -415,6 +416,7 @@ h2 {
   opacity: 1;
   transform: translateY(0);
   text-decoration: none;
+  color: #0c6b11;
 }
 
 .vividus-services-card:hover .vividus-services-icon,
@@ -509,7 +511,6 @@ h2 {
   }
 }
 
-
 /* contatct home section css  */
 .vividus-contecthome-section {
   background: linear-gradient(
@@ -592,6 +593,7 @@ h2 {
 .vividus-aboutus-section img {
   max-width: 100%;
   height: auto;
+  border-radius: 8px;
 }
 
 .vividus-aboutus-icon {
@@ -821,7 +823,6 @@ h2 {
   align-items: center;
   justify-content: center;
   position: relative;
-  border-radius: 10px;
 }
 
 .subpage-bannersection-main::after {
@@ -1511,18 +1512,18 @@ h2 {
   }
 }
 
-.a-line{
-    text-decoration: none;
+.a-line {
+  text-decoration: none;
 }
-.a-line:hover{
-    text-decoration: none;
+.a-line:hover {
+  text-decoration: none;
 }
 
 /* home product icons css  */
 .vividus-product-icons {
-  max-width: 60px;     
+  max-width: 60px;
   height: auto;
-  transition: filter 0.3s ease; 
+  transition: filter 0.3s ease;
   filter: brightness(0);
 }
 
@@ -1539,5 +1540,360 @@ h2 {
 @media (max-width: 480px) {
   .vividus-product-icons {
     max-width: 45px;
+  }
+}
+
+/* careers page css  */
+.vividus-careers-banner h1 {
+  font-weight: bold;
+}
+.vividus-careers-section-title {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+.vividus-careers-job-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: #fff;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.vividus-careers-job-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.vividus-careers-form-section {
+  background: #f4f9f6;
+  margin-top: 50px;
+}
+.vividus-careers-btn {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px 30px;
+  border: none;
+}
+
+.custom-file-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-file-wrapper input[type="file"] {
+  display: none;
+}
+
+.custom-file-wrapper .custom-file-label {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  padding: 0.375rem 0.75rem;
+  height: 38px;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  display: block;
+  width: 100%;
+  color: #6c757d;
+  font-weight: 400;
+}
+
+.vividus-careers-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  border: 1px solid orange;
+  margin-top: 10px;
+}
+
+.vividus-careers-btn:hover {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+}
+/* Tablet and smaller (landscape phones) */
+@media (max-width: 767px) {
+  .vividus-careers-banner h1 {
+    font-size: 24px;
+  }
+
+  .vividus-careers-job-card {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .vividus-careers-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .custom-file-wrapper .custom-file-label {
+    font-size: 13px;
+  }
+}
+
+/* Small devices (phones) */
+@media (max-width: 575px) {
+  .vividus-careers-banner h1 {
+    font-size: 20px;
+  }
+
+  .vividus-careers-section-title {
+    font-size: 18px;
+  }
+
+  .vividus-careers-job-card {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .custom-file-wrapper .custom-file-label {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+/* R&D page css  */
+.vividus-rnd-hero {
+  background-color: #004080;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.vividus-rnd-about ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.vividus-rnd-areas .card {
+  transition: transform 0.3s;
+}
+
+.vividus-rnd-areas .card:hover {
+  transform: translateY(-10px);
+}
+
+.vividus-rnd-innovation {
+  background-color: #f8f9fa;
+}
+.vividus-rnd-img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+.vividus-collaboration-rnd-cap {
+  background-color: #ffffff;
+}
+
+.vividus-collaboration-rnd-cap .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Space between cards */
+}
+
+.vividus-collaboration-rnd-cap .col-md-3 {
+  background-color: #f9f9f9;
+  padding: 25px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 22%;
+  min-width: 250px;
+}
+
+.vividus-collaboration-rnd-cap .col-md-3:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.vividus-collaboration-rnd-cap h5 {
+  font-weight: 600;
+  color: #1f3b8b;
+  margin-bottom: 10px;
+}
+
+.vividus-collaboration-rnd-cap p {
+  font-size: 15px;
+  color: #555;
+  margin: 0;
+}
+
+.vividus-collaboration-rnd-global {
+  background-color: #f8f9fa;
+}
+
+.vividus-collaboration-rnd-global .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Space between partner cards */
+}
+
+.vividus-collaboration-rnd-global .col-md-4 {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 300px;
+  flex: 1 1 300px;
+}
+
+.vividus-collaboration-rnd-global .col-md-4:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.vividus-collaboration-rnd-global img {
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.vividus-collaboration-rnd-global p {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #333;
+}
+
+.rnd-research-img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rnd-research-img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.vividus-collaboration-rnd-milestone {
+  background-color: #ffffff;
+}
+
+.rnd-milestone-card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.rnd-milestone-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.rnd-milestone-card h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.rnd-milestone-card p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Small Tablets and Large Phones (max-width: 767px) */
+@media (max-width: 767px) {
+  .vividus-rnd-hero {
+    padding: 50px 0;
+    font-size: 1rem;
+  }
+
+  .vividus-rnd-img {
+    height: 250px;
+  }
+
+  .vividus-collaboration-rnd-cap .col-md-3,
+  .vividus-collaboration-rnd-global .col-md-4 {
+    max-width: 100%;
+  }
+
+  .vividus-collaboration-rnd-cap .row,
+  .vividus-collaboration-rnd-global .row {
+    gap: 20px;
+  }
+
+  .rnd-milestone-card h1 {
+    font-size: 2rem;
+  }
+
+  .rnd-milestone-card p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile (max-width: 575px) */
+@media (max-width: 575px) {
+  .vividus-rnd-hero {
+    padding: 40px 0;
+  }
+
+  .vividus-rnd-img {
+    height: 200px;
+    border-radius: 8px;
+  }
+
+  .vividus-collaboration-rnd-cap .col-md-3,
+  .vividus-collaboration-rnd-global .col-md-4 {
+    padding: 15px;
+  }
+
+  .vividus-collaboration-rnd-cap h5 {
+    font-size: 16px;
+  }
+
+  .vividus-collaboration-rnd-cap p,
+  .vividus-collaboration-rnd-global p {
+    font-size: 14px;
+  }
+
+  .rnd-milestone-card {
+    padding: 15px;
+  }
+
+  .rnd-milestone-card h1 {
+    font-size: 1.8rem;
+  }
+
+  .rnd-milestone-card p {
+    font-size: 0.9rem;
+  }
+}
+
+
+.achievements-awards-logos {
+  max-width: 100%;
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Responsive media queries */
+@media (max-width: 768px) {
+  .achievements-awards-logos {
+    width: 180px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .achievements-awards-logos {
+    width: 150px;
+    padding: 6px;
   }
 }
