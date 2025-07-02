@@ -848,6 +848,75 @@ h2 {
   position: relative;
   z-index: 1;
 }
+/* Tablet View (768px and below) */
+@media (max-width: 768px) {
+  .contactus-page-section {
+    padding: 30px 20px !important;
+  }
+
+  .contactus-page-title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .contactus-page-subtitle {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .contactus-page-info p,
+  .contactus-page-info a {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .contactus-page-social {
+    justify-content: center;
+  }
+
+  .subpage-bannersection-title {
+    font-size: 36px;
+    text-align: center;
+  }
+}
+
+/* Mobile View (480px and below) */
+@media (max-width: 480px) {
+  .contactus-page-section {
+    padding: 20px 15px !important;
+  }
+
+  .contactus-page-title {
+    font-size: 26px;
+  }
+
+  .contactus-page-subtitle {
+    font-size: 13px;
+  }
+
+  .contactus-page-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .contactus-page-social a {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+
+  .subpage-bannersection-main {
+    height: 300px;
+    background-attachment: scroll;
+  }
+
+  .subpage-bannersection-title {
+    font-size: 28px;
+  }
+}
 
 /* faqs section css  */
 .vividus-faqs-section {
@@ -1044,6 +1113,7 @@ h2 {
   .vividu-orthopedic-card {
     padding: 16px;
   }
+
 }
 
 
