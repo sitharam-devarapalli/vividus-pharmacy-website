@@ -71,7 +71,7 @@ h2 {
 }
 
 .vividus-header-main.scrolled {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #fff !important;
 }
 
 .navbar-nav {
@@ -481,9 +481,10 @@ h2 {
   .vividus-services-card:hover .vividus-services-btn {
     font-size: 12px;
   }
+
   .vividus-services-container {
-  padding: 20px;
-}
+    padding: 20px;
+  }
 }
 
 /* Mobile */
@@ -508,9 +509,11 @@ h2 {
   .vividus-services-card p {
     font-size: 13px;
   }
-.vividus-services-container {
-  padding: 20px;
-}
+
+  .vividus-services-container {
+    padding: 20px;
+  }
+
   .vividus-services-btn {
     padding: 4px 10px;
     font-size: 13px;
@@ -565,9 +568,13 @@ h2 {
   .vividus-contecthome-btn {
     margin-top: 20px;
   }
-  .vividus-aboutus-section{
-  padding: 20px !important;
-}
+
+  .vividus-aboutus-section {
+    padding: 20px !important;
+  }
+  .vividus-contecthome-section{
+    padding: 20px;
+  }
 }
 
 /* <!-- About us section code css --> */
@@ -848,6 +855,7 @@ h2 {
   position: relative;
   z-index: 1;
 }
+
 /* Tablet View (768px and below) */
 @media (max-width: 768px) {
   .contactus-page-section {
@@ -856,12 +864,13 @@ h2 {
 
   .contactus-page-title {
     font-size: 30px;
-    text-align: center;
+    text-align: start;
+    
   }
 
   .contactus-page-subtitle {
     font-size: 14px;
-    text-align: center;
+    text-align: start;
   }
 
   .contactus-page-info p,
@@ -888,6 +897,7 @@ h2 {
 
   .contactus-page-title {
     font-size: 26px;
+    text-align: start;
   }
 
   .contactus-page-subtitle {
@@ -1064,56 +1074,87 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
-/* Tablet View (below 1024px) */
-@media (max-width: 1024px) {
-  .vividu-orthopedic-container {
-    padding: 30px;
-  }
 
-  .vividu-orthopedic-title {
-    font-size: 26px;
-  }
+/* Tablet View - 768px to 991px */
+@media (max-width: 991px) and (min-width: 768px) {
 
-  .vividu-orthopedic-text {
-    font-size: 13px;
-  }
-
-  .vividu-orthopedic-header h2 {
-    font-size: 30px;
-    text-align: center;
-  }
-}
-
-/* Mobile View (below 768px) */
-@media (max-width: 768px) {
+  .vividus-faqs-section,
   .vividu-orthopedic-container {
     padding: 20px;
   }
 
-  .vividu-orthopedic-title {
-    font-size: 22px;
+  .vividus-faqs-title,
+  .vividu-orthopedic-header h2 {
+    font-size: 30px;
     text-align: center;
   }
 
-  .vividu-orthopedic-text {
+  .vividus-faqs-subtitle,
+  .vividu-orthopedic-title {
     font-size: 12px;
     text-align: center;
   }
 
-  .vividu-orthopedic-header h2 {
-    font-size: 22px;
-    text-align: center;
+  .vivudu-orthopedic-text {
+    font-size: 13px;
+    line-height: 1.5;
   }
 
   .vividu-orthopedic-both {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 10px;
+  }
+
+  .vivudu-orthopedic-card {
+    padding: 15px;
+  }
+}
+
+/* Mobile View - Below 767px */
+@media (max-width: 767px) {
+
+  .vividus-faqs-section,
+  .vividu-orthopedic-container {
+    padding: 20px 15px;
+  }
+
+  .vividus-faqs-title,
+  .vividu-orthopedic-header h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .vividus-faqs-subtitle,
+  .vividu-orthopedic-title {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .vivudu-orthopedic-text {
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .vivudu-orthopedic-both {
     grid-template-columns: 1fr;
-    gap: 15px;
+    gap: 15px !important;
   }
 
-  .vividu-orthopedic-card {
-    padding: 16px;
+  .vivudu-orthopedic-card {
+    padding: 15px;
   }
 
+  .vividus-faqs-header {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .faq-icon i {
+    font-size: 12px;
+  }
 }
 
 
@@ -1162,12 +1203,14 @@ h2 {
   font-weight: 700;
   color: #c82817;
 }
+
 .product-logo {
   max-width: 300px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
+
 .cardiac-vividus-card ul li {
   font-size: 14px;
   margin-bottom: 5px;
@@ -1177,12 +1220,14 @@ h2 {
   font-size: 18px;
   color: #28a745;
 }
+
 /* Grid layout */
 .cardiac-vividus-row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
+
 /* Responsive design for tablets */
 @media (max-width: 1024px) {
   .cardiac-vividus-container {
@@ -1435,7 +1480,7 @@ h2 {
 
 @media (max-width: 575.98px) {
   .about-whatwe-section {
-    padding: 30px 10px;
+    padding: 20px;
   }
 
   .about-whatwe-image {
@@ -1611,19 +1656,51 @@ h2 {
   display: block;
 }
 
-@media (max-width: 768px) {
+/* Tablet View - 768px to 991px */
+@media (max-width: 991px) and (min-width: 768px) {
+  .about-achievements-section {
+    padding: 30px;
+  }
+
+  .about-achievements-title {
+    font-size: 30px;
+    text-align: start;
+  }
+
+  .about-achievements-text {
+    font-size: 14px;
+    text-align: start;
+  }
+
+
   .VIVIDUS-Logo-img {
-    max-height: 50px;
-    /* Smaller height on tablets */
+    width: 180px;
+    margin: 0 auto;
   }
 }
 
-@media (max-width: 480px) {
+/* Mobile View - Below 767px */
+@media (max-width: 767px) {
+  .about-achievements-section {
+    padding: 20px 15px;
+  }
+
+  .about-achievements-title {
+    font-size: 24px;
+    text-align: start;
+  }
+
+  .about-achievements-text {
+    font-size: 13px;
+    text-align: start;
+  }
+
   .VIVIDUS-Logo-img {
-    max-height: 50px;
-    /* Even smaller on mobile */
+    width: 160px;
+    margin: 0 auto;
   }
 }
+
 
 .a-line {
   text-decoration: none;
@@ -1970,9 +2047,10 @@ h2 {
   .vividus-rnd-img {
     height: 250px;
   }
+
   .vividus-rnd-areas {
-  padding: 20px;
-}
+    padding: 20px;
+  }
 
   .vividus-collaboration-rnd-cap .col-md-3,
   .vividus-collaboration-rnd-global .col-md-4 {
@@ -1991,9 +2069,10 @@ h2 {
   .rnd-milestone-card p {
     font-size: 0.95rem;
   }
+
   .vividus-rnd-about {
-  padding: 20px;
-}
+    padding: 20px;
+  }
 }
 
 /* Mobile (max-width: 575px) */
@@ -2002,6 +2081,15 @@ h2 {
     padding: 40px 0;
   }
 
+  .vividus-rnd-innovation {
+    padding: 20px;
+  }
+.vividus-collaboration-rnd-global{
+  padding: 20px;
+}
+.vividus-collaboration-rnd-milestone{
+  padding: 20px;
+}
   .vividus-rnd-img {
     height: 200px;
     border-radius: 8px;
@@ -2010,6 +2098,10 @@ h2 {
   .vividus-collaboration-rnd-cap .col-md-3,
   .vividus-collaboration-rnd-global .col-md-4 {
     padding: 15px;
+  }
+
+  .vividus-collaboration-rnd-cap {
+    padding: 20px;
   }
 
   .vividus-collaboration-rnd-cap h5 {
